@@ -5,7 +5,7 @@
     "manifest_version": 2,
     "permissions": ["storage"],
     "chrome_url_overrides": {
-        "newtab": "new-tab.html"
+        "newtab": "index.html"
     },
     "background": { 
         "scripts" : ["background.js"],
