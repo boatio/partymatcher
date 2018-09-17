@@ -4,6 +4,9 @@
     "description": "",
     "manifest_version": 2,
     "permissions": ["storage"],
+    "chrome_url_overrides": {
+        "newtab": "new-tab.html"
+    },
     "background": { 
         "scripts" : ["background.js"],
         "persistent": false
