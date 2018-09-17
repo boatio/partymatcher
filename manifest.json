@@ -1,0 +1,12 @@
+{
+    "name": "PartyMatcher",
+    "version": "1.0",
+    "description": "",
+    "manifest_version": 2,
+    "permissions": ["storage"],
+    "background": { 
+        "scripts" : ["background.js"],
+        "persistent": false
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }
